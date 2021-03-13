@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { BettingMainPageWithHeaderFooterComponent } from './View/betting-main-page-with-header-footer/betting-main-page-with-header-footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TestComponent } from './View/test/test.component';
+import { LoginComponent } from './View/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BettingMainPageWithHeaderFooterComponent,
-    TestComponent
+    TestComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
