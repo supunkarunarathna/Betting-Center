@@ -5,7 +5,7 @@ import { BettingMainPageWithHeaderFooterComponent } from './View/betting-main-pa
 import { LoginComponent } from './View/login/login.component';
 
 const routes: Routes = [
-  { path: '', component: BettingMainPageWithHeaderFooterComponent, pathMatch: 'full' },
+  { path: '', component: LoginComponent, pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'betting-main-page-with-header-footer', component: BettingMainPageWithHeaderFooterComponent }
 
